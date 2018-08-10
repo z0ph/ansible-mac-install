@@ -11,20 +11,19 @@ configure_npm: no
 configure_extra: yes
 configure_dock: yes
 
-dotfiles_repo: https://github.com/flemzord/dotfiles.git
+dotfiles_repo: https://github.com/z0ph/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-  - .zshrc
   - .gitconfig
   - .gitignore
   - .osx
-  - .vimrc
-  - .zshrc.local
+  - .zsh
 
 homebrew_installed_packages:
   - autoconf
   - automake
+  - zsh
   - bash-completion
   - git
   - go
@@ -38,43 +37,57 @@ homebrew_installed_packages:
   - kubernetes-helm
   - mas
   - ncdu
+  - lftp
+  - vim
   - packer
-  - scw
   - terraform
-  - zsh
   - tree
   - dockutil
   - watch
-  - zplug
-
-##homebrew_taps:
-#  - homebrew/core
-#  - caskroom/cask
-#  - homebrew/php
-#  - caskroom/fonts
+  - calc
+  - gnutls
+  - unrar
+  - aws-shell
+  - coreutils
+  - libgcrypt
+  - openssl
+  - ruby
+  - awscli
+  - nmap
+  - python
+  - python3
+  - awless
+  - direnv
+  - gnupg
+  - node
+  - sqlite
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - google-chrome
-  - sequel-pro
-  - google-cloud-sdk
+  - firefox
+  - sublime-text
+  - dropbox
+  - cyberduck
+  - grammarly
+  - handbrake
+  - teamviewer
+  - enpass
+  - sequel-pro # MySQL Client (GUI)
   - font-fira-mono-for-powerline
-  - google-drive-file-stream
+  - font-fira-mono-for-powerline
   - alfred
   - iterm2
   - spotify
   - cleanmymac
-  - etcher
-  - yakyak
-  - tunnelblick
-  - gitkraken
-  - docker-edge
-  - vlc
-  - franz
-  - visual-studio-code
-  - dashlane
-  - font-fira-mono-for-powerline
+  - etcher # flash usb drives
+  - tunnelblick # vpn client
+  - gitkraken # git with a gui
+  - docker-edge # still working?
   - homebrew/cask-versions/docker-edge
+  - vlc
+  - franz # client whatsapp, telegram, slack, etc.
+  - visual-studio-code
 
 npm_global_package:
   - pm2
@@ -82,10 +95,10 @@ npm_global_package:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
 mas_installed_apps:
-  - { id: 747648890, name: "Telegram" }
+  - { id: 441258766, name: "Magnet" }
+  - { id: 1176895641, name: "Spark" }
+  - { id: 1039633667, name: "Irvue" }
   - { id: 409183694, name: "Keynote" }
-  - { id: 409203825, name: "Numbers" }
-  - { id: 409201541, name: "Pages" }
   - { id: 557168941, name: "Tweetbot for Twitter" }
   - { id: 715768417, name: "Microsoft Remote Desktop" }
   - { id: 784801555, name: "Microsoft OneNote" }
