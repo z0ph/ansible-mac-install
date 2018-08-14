@@ -7,7 +7,6 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: yes
 configure_sudoers: yes
 configure_osx: yes
-configure_npm: no
 configure_extra: yes
 configure_dock: yes
 
@@ -15,7 +14,6 @@ dotfiles_repo: https://github.com/z0ph/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-  - .gitconfig
   - .gitignore
   - .osx
   - .zsh
@@ -68,29 +66,28 @@ homebrew_cask_apps:
   - firefox
   - sublime-text
   - dropbox
-  - cyberduck
+  - cyberduck # ftp client
   - grammarly
   - handbrake
   - teamviewer
-  - enpass
+  - enpass # password manager
   - sequel-pro # MySQL Client (GUI)
   - font-fira-mono-for-powerline
   - font-fira-mono-for-powerline
+  - font-source-code-pro # font for zsh
   - alfred
-  - iterm2
+  - iterm2 # terminal emulator
+  - licecap # capture as a gif
   - spotify
   - cleanmymac
   - etcher # flash usb drives
   - tunnelblick # vpn client
   - gitkraken # git with a gui
-  - docker-edge # still working?
-  - homebrew/cask-versions/docker-edge
+  - docker
+  - transmit # torrent client
   - vlc
   - franz # client whatsapp, telegram, slack, etc.
   - visual-studio-code
-
-npm_global_package:
-  - pm2
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
@@ -100,7 +97,7 @@ mas_installed_apps:
   - { id: 1039633667, name: "Irvue" }
   - { id: 409183694, name: "Keynote" }
   - { id: 557168941, name: "Tweetbot for Twitter" }
-  - { id: 715768417, name: "Microsoft Remote Desktop" }
+  - { id: 1295203466, name: "Microsoft Remote Desktop" }
   - { id: 784801555, name: "Microsoft OneNote" }
 
 mas_upgrade_all_apps: yes
@@ -114,44 +111,59 @@ dockitems_disabled:
   - Safari
   - Contacts
   - Notes
-  - Rappels
+  - Reminders
   - Maps
   - Photos
   - Messages
   - FaceTime
   - iTunes
   - iBooks
-  - App Store
-  - Calendrier
+  - Calendar
   - Terminal
-  - Plans
   - Pages
   - Numbers
   - Keynote
-  - Préférences Système
 
 dockitems_enabled:
-  - name: iTerm
-    path: "/Applications/iTerm.app"
-    pos: 1
   - name: Google Chrome
     path: "/Applications/Google Chrome.app"
+    pos: 1
+  - name: Firefox
+    path: "/Applications/Firefox.app"
     pos: 2
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
     pos: 3
-  - name: Telegram
-    path: "/Applications/Telegram.app"
+  - name: Slack
+    path: "/Applications/Slack.app"
     pos: 4
-  - name: YakYak
-    path: "/Applications/YakYak.app"
+  - name: iTerm
+    path: "/Applications/iTerm.app"
     pos: 5
-  - name: Franz
-    path: "/Applications/Franz.app"
+  - name: Sublime Text
+    path: "/Applications/Sublime Text.app"
     pos: 6
-  - name: Spotify
-    path: "/Applications/Spotify.app"
+  - name: Microsoft OneNote
+    path: "/Applications/Microsoft OneNote.app"
     pos: 7
-  - name: Préférences Système
+  - name: System Preferences
     path: "/Applications/System Preferences.app"
     pos: 8
+  - name: Image Capture
+    path: "/Applications/Image Capture.app"
+    pos: 9
+  - name: Spotify
+    path: "/Applications/Spotify.app"
+    pos: 10
+  - name: Calculator
+    path: "/Applications/Calculator.app"
+    pos: 11
+  - name: Dictionnary
+    path: "/Applications/Dictionnary.app"
+    pos: 12
+  - name: Franz
+    path: "/Applications/Franz.app"
+    pos: 13
+  - name: Enpass
+    path: "/Applications/Enpass.app"
+    pos: 14
