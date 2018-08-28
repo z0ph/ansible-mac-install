@@ -5,7 +5,6 @@ terminal-notifier -message "Brew | upgrade"
 brew upgrade
 terminal-notifier -message "Brew | cleanup"
 brew cleanup -s
-brew cask cleanup
 terminal-notifier -message "Brew | doctor"
 brew doctor
 terminal-notifier -message "Brew | missing"
