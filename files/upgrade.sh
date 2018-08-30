@@ -9,6 +9,6 @@ terminal-notifier -message "Brew | doctor"
 brew doctor
 terminal-notifier -message "Brew | missing"
 brew missing
-terminal-notifier -message "MarketPlace | Update all"
+terminal-notifier -message "AppleStore | Update all"
 mas outdated
 mas upgrade

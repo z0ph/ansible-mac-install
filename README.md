@@ -1,6 +1,6 @@
 # Ansible Playbook for Mac install
 
-[![Build Status](https://travis-ci.org/flemzord/ansible-mac-install.svg?branch=master)](https://travis-ci.org/flemzord/ansible-mac-install)    
+[![Build Status](https://travis-ci.org/z0ph/ansible-mac-install.svg?branch=master)](https://travis-ci.org/z0ph/ansible-mac-install) 
 
 ## Disclaimer
 
