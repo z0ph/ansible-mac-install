@@ -79,6 +79,7 @@ homebrew_cask_apps:
   - iterm2 # terminal emulator
   - licecap # capture as a gif
   - spotify
+  - mark-text # Markdown editor
   - cleanmymac
   - etcher # flash usb drives
   - tunnelblick # vpn client
@@ -88,6 +89,7 @@ homebrew_cask_apps:
   - vlc
   - franz # client whatsapp, telegram, slack, etc.
   - visual-studio-code
+  - pycharm
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
