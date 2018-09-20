@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - nvm
   - ssh-copy-id
   - wget
+  - tldr
   - curl
   - htop
   - kubernetes-cli
