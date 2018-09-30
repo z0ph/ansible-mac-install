@@ -21,76 +21,76 @@ dotfiles_files:
 homebrew_installed_packages:
   - autoconf
   - automake
-  - zsh
+  - awless
+  - aws-shell
+  - awscli
   - bash-completion
+  - calc
+  - coreutils
+  - curl
+  - direnv
+  - dockutil
   - git
+  - gnupg
+  - gnutls
   - go
   - gpg
-  - nvm
-  - ssh-copy-id
-  - wget
-  - tldr
-  - curl
   - htop
   - kubernetes-cli
   - kubernetes-helm
+  - lftp
+  - libgcrypt
   - mas
   - ncdu
-  - lftp
-  - vim
-  - packer
-  - terraform
-  - tree
-  - dockutil
-  - watch
-  - calc
-  - gnutls
-  - unrar
-  - aws-shell
-  - coreutils
-  - libgcrypt
-  - openssl
-  - ruby
-  - awscli
   - nmap
+  - node
+  - nvm
+  - openssl
+  - packer
   - python
   - python3
-  - awless
-  - direnv
-  - gnupg
-  - node
+  - ruby
   - sqlite
+  - ssh-copy-id
+  - terraform
+  - tldr
+  - tree
+  - unrar
+  - vim
+  - watch
+  - wget
+  - zsh
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - google-chrome
-  - firefox
-  - sublime-text
-  - dropbox
+  - alfred
+  - cleanmymac
   - cyberduck # ftp client
-  - grammarly
-  - handbrake
-  - teamviewer
+  - docker
+  - dropbox
   - enpass # password manager
-  - sequel-pro # MySQL Client (GUI)
+  - etcher # flash usb drives
+  - firefox
   - font-fira-mono-for-powerline
   - font-fira-mono-for-powerline
   - font-source-code-pro # font for zsh
-  - alfred
+  - franz # client whatsapp, telegram, slack, etc.
+  - gitkraken # git with a gui
+  - google-chrome
+  - grammarly
+  - handbrake
   - iterm2 # terminal emulator
   - licecap # capture as a gif
-  - spotify
   - mark-text # Markdown editor
-  - cleanmymac
-  - etcher # flash usb drives
-  - tunnelblick # vpn client
-  - gitkraken # git with a gui
-  - docker
-  - transmit # torrent client
-  - vlc
-  - franz # client whatsapp, telegram, slack, etc.
-  - visual-studio-code
   - pycharm
+  - sequel-pro # MySQL Client (GUI)
+  - spotify
+  - sublime-text
+  - teamviewer
+  - transmit # torrent client
+  - tunnelblick # vpn client
+  - visual-studio-code
+  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
