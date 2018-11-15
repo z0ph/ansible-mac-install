@@ -9,6 +9,7 @@ This playbook comes from [flemzord](https://github.com/flemzord/ansible-mac-inst
 
 ## Installation
 
-  1. Clone this repository to your local drive.
-  2. Change your configuration in ```config.yml```.
-  3. Run ```sh run.sh``` from your brand new macOS installation.
+  1. Run `xcode-select --install` to install minimal tools (git, ...)
+  2. Clone this repository to your local drive.
+  3. Change and adapt to your needs the configuration in ```config.yml```.
+  4. Run ```sh run.sh``` from your brand new macOS installation.

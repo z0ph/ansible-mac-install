@@ -17,11 +17,14 @@
 
 - name: "ZSH | Copy config"
   template:
-    src: "templates/zshrc.j2"
+    src: "~/.dotfiles/.zshrc"
     dest: "~/.zshrc"
 
 - name: "ZSH | Define default shell"
   command: "chsh -s /bin/zsh"
   
 - name: "Install oh-my-zsh"
-  shell: "sh -c '$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)'"
+  shell: "curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash"
+
+- name: "Install oh-my-zsh"
+  shell: "npm install --global pure-prompt"

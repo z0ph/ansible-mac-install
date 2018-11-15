@@ -6,7 +6,7 @@ downloads: ~/.ansible-downloads/
 
 configure_dotfiles: yes
 configure_sudoers: yes
-configure_osx: yes
+configure_osx: no
 configure_extra: yes
 configure_dock: yes
 
@@ -16,12 +16,14 @@ dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
   - .gitignore
   - .osx
-  - .zsh
+  - .zshrc
+  - .alias.sh
+  - .bashrc
 
 homebrew_installed_packages:
   - autoconf
   - automake
-  - awless
+#  - awless # brew tap wallix/awless; brew install awless
   - aws-shell
   - awscli
   - bash-completion
@@ -71,9 +73,8 @@ homebrew_cask_apps:
   - enpass # password manager
   - etcher # flash usb drives
   - firefox
-  - font-fira-mono-for-powerline
-  - font-fira-mono-for-powerline
-  - font-source-code-pro # font for zsh
+  #- font-fira-mono-for-powerline # brew tap caskroom/fonts
+  #- font-source-code-pro # font for zsh # brew tap caskroom/fonts
   - franz # client whatsapp, telegram, slack, etc.
   - gitkraken # git with a gui
   - google-chrome
