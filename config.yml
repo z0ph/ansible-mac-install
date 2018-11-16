@@ -87,6 +87,7 @@ homebrew_cask_apps:
   - sequel-pro # MySQL Client (GUI)
   - spotify
   - sublime-text
+  - skype
   - teamviewer
   - transmit # torrent client
   - tunnelblick # vpn client
@@ -171,3 +172,6 @@ dockitems_enabled:
   - name: Enpass
     path: "/Applications/Enpass.app"
     pos: 14
+  - name: Skype
+    path: "/Applications/Skype.app"
+    pos: 15
