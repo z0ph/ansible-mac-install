@@ -87,6 +87,7 @@ homebrew_cask_apps:
   - sequel-pro # MySQL Client (GUI)
   - spotify
   - sublime-text
+  - slack
   - skype
   - teamviewer
   - transmit # torrent client
