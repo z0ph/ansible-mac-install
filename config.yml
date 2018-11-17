@@ -55,6 +55,7 @@ homebrew_installed_packages:
   - sqlite
   - ssh-copy-id
   - terraform
+  - terminal-notifier
   - tldr
   - tree
   - unrar
@@ -164,8 +165,8 @@ dockitems_enabled:
   - name: Calculator
     path: "/Applications/Calculator.app"
     pos: 11
-  - name: Dictionnary
-    path: "/Applications/Dictionnary.app"
+  - name: Dictionary
+    path: "/Applications/Dictionary.app"
     pos: 12
   - name: Franz
     path: "/Applications/Franz.app"

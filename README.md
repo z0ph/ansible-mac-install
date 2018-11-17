@@ -13,3 +13,9 @@ This playbook comes from [flemzord](https://github.com/flemzord/ansible-mac-inst
   2. Clone this repository to your local drive.
   3. Change and adapt to your needs the configuration in ```config.yml```.
   4. Run ```sh run.sh``` from your brand new macOS installation
+
+## Upgrade
+
+To upgrade your installation:
+
+    $ sh files/upgrade.sh
