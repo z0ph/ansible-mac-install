@@ -101,7 +101,7 @@ mas_signin_dialog: yes
 mas_installed_apps:
   - { id: 441258766, name: "Magnet" }
   - { id: 1176895641, name: "Spark" }
-  - { id: 1039633667, name: "Irvue" }
+  - { id: 1039633667, name: "Irvue" } # Awesome wallpapers
   - { id: 409183694, name: "Keynote" }
   - { id: 557168941, name: "Tweetbot for Twitter" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" }

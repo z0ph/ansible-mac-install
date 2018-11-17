@@ -1,4 +1,5 @@
 #!/bin/bash
+
 terminal-notifier -message "Brew | update"
 brew update
 terminal-notifier -message "Brew | upgrade"

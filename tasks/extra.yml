@@ -26,5 +26,10 @@
 - name: "Install oh-my-zsh"
   shell: "curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash"
 
-- name: "Install oh-my-zsh"
+- name: "Install pure-prompt"
   shell: "npm install --global pure-prompt"
+
+- name: "Add Jeedom to hosts file"
+  lineinfile:
+    dest: /etc/hosts
+    line: '192.168.1.14	alfred.zoph.me'
