@@ -22,10 +22,16 @@ dotfiles_files:
   - .alias.sh
   - .bashrc
 
+homebrew_taps:
+  - homebrew/cask
+  - wallix/awless
+  - caskroom/fonts
+  - homebrew/cask-versions
+
 homebrew_installed_packages:
   - autoconf
   - automake
-#  - awless # brew tap wallix/awless; brew install awless
+  - awless # brew tap wallix/awless; brew install awless
   - aws-shell
   - awscli
   - bash-completion
@@ -76,14 +82,15 @@ homebrew_cask_apps:
   - enpass # password manager
   - etcher # flash usb drives
   - firefox
-  #- font-fira-mono-for-powerline # brew tap caskroom/fonts
-  #- font-source-code-pro # font for zsh # brew tap caskroom/fonts
+  - font-fira-mono-for-powerline 
+  - font-source-code-pro # font for zsh
   - franz # client whatsapp, telegram, slack, etc.
   - gitkraken # git with a gui
   - google-chrome
   - grammarly
   - handbrake
   - iterm2 # terminal emulator
+  - istat-menus5 # force version 5
   - licecap # capture as a gif
   - mark-text # Markdown editor
   - pycharm
@@ -97,6 +104,7 @@ homebrew_cask_apps:
   - tunnelblick # vpn client
   - visual-studio-code
   - vlc
+
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes

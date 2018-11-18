@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/z0ph/ansible-mac-install.svg?branch=master)](https://travis-ci.org/z0ph/ansible-mac-install) 
 
+Tested on macOS: `10.14.1 (18B2107)`
+
 ## Disclaimer
 
 This installation is setup for my own usage, and to my needs. Please adapt the configuration.
