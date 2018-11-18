@@ -20,13 +20,18 @@
     src: "~/.dotfiles/.zshrc"
     dest: "~/.zshrc"
 
+- name: "ZSH | Copy alias.sh"
+  template:
+    src: "~/.dotfiles/.alias.sh"
+    dest: "~/.alias.sh"
+
 - name: "ZSH | Define default shell"
   command: "chsh -s /bin/zsh"
   
 - name: "Install oh-my-zsh"
   shell: "curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | bash"
 
-- name: "Install pure-prompt"
+- name: "Install zsh pure-prompt"
   shell: "npm install --global pure-prompt"
 
 - name: "Add Jeedom to hosts file"

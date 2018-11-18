@@ -1,4 +1,5 @@
 ---
+
 - name: Dockutil | Remove all unwanted dock items
   shell: dockutil --remove "{{ item }}"
   ignore_errors: true

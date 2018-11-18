@@ -4,12 +4,14 @@ downloads_dir: ~/Downloads
 
 downloads: ~/.ansible-downloads/
 
+# Options
 configure_dotfiles: yes
 configure_sudoers: yes
 configure_osx: no
 configure_extra: yes
 configure_dock: yes
 
+# dotfiles options
 dotfiles_repo: https://github.com/z0ph/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
@@ -99,18 +101,19 @@ homebrew_cask_apps:
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
 mas_installed_apps:
-  - { id: 441258766, name: "Magnet" }
-  - { id: 1176895641, name: "Spark" }
+  - { id: 441258766, name: "Magnet" } # Windows Management
+  - { id: 1176895641, name: "Spark" } # Email Client
   - { id: 1039633667, name: "Irvue" } # Awesome wallpapers
   - { id: 409183694, name: "Keynote" }
   - { id: 557168941, name: "Tweetbot for Twitter" }
-  - { id: 1295203466, name: "Microsoft Remote Desktop" }
+  - { id: 1295203466, name: "Microsoft Remote Desktop" } # RDP Client
   - { id: 784801555, name: "Microsoft OneNote" }
 
 mas_upgrade_all_apps: yes
 
 osx_script: "~/.osx --no-restart"
 
+# Dock
 dockitems_disabled:
   - Launchpad
   - Siri
@@ -141,39 +144,42 @@ dockitems_enabled:
   - name: Tweetbot
     path: "/Applications/Tweetbot.app"
     pos: 3
+  - name: Spark
+    path: "/Applications/Spark.app"
+    pos: 4
   - name: Slack
     path: "/Applications/Slack.app"
-    pos: 4
+    pos: 5
   - name: iTerm
     path: "/Applications/iTerm.app"
-    pos: 5
+    pos: 6
   - name: Sublime Text
     path: "/Applications/Sublime Text.app"
-    pos: 6
+    pos: 7
   - name: Microsoft OneNote
     path: "/Applications/Microsoft OneNote.app"
-    pos: 7
+    pos: 8
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 8
+    pos: 9
   - name: Image Capture
     path: "/Applications/Image Capture.app"
-    pos: 9
+    pos: 10
   - name: Spotify
     path: "/Applications/Spotify.app"
-    pos: 10
+    pos: 11
   - name: Calculator
     path: "/Applications/Calculator.app"
-    pos: 11
+    pos: 12
   - name: Dictionary
     path: "/Applications/Dictionary.app"
-    pos: 12
+    pos: 13
   - name: Franz
     path: "/Applications/Franz.app"
-    pos: 13
+    pos: 14
   - name: Enpass
     path: "/Applications/Enpass.app"
-    pos: 14
+    pos: 15
   - name: Skype
     path: "/Applications/Skype.app"
-    pos: 15
+    pos: 16
