@@ -17,7 +17,6 @@ dotfiles_repo: https://github.com/z0ph/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-  - .gitignore
   - .osx
   - .zshrc
   - .alias.sh
@@ -160,36 +159,39 @@ dockitems_enabled:
   - name: Slack
     path: "/Applications/Slack.app"
     pos: 5
+  - name: Microsoft Teams
+    path: "/Applications/Microsoft Teams.app"
+    pos: 6
   - name: iTerm
     path: "/Applications/iTerm.app"
-    pos: 6
+    pos: 7
   - name: Sublime Text
     path: "/Applications/Sublime Text.app"
-    pos: 7
+    pos: 8
   - name: Microsoft OneNote
     path: "/Applications/Microsoft OneNote.app"
-    pos: 8
+    pos: 9
   - name: System Preferences
     path: "/Applications/System Preferences.app"
-    pos: 9
+    pos: 10
   - name: Image Capture
     path: "/Applications/Image Capture.app"
-    pos: 10
+    pos: 11
   - name: Spotify
     path: "/Applications/Spotify.app"
-    pos: 11
+    pos: 12
   - name: Calculator
     path: "/Applications/Calculator.app"
-    pos: 12
+    pos: 13
   - name: Dictionary
     path: "/Applications/Dictionary.app"
-    pos: 13
+    pos: 14
   - name: Franz
     path: "/Applications/Franz.app"
-    pos: 14
+    pos: 15
   - name: Enpass
     path: "/Applications/Enpass.app"
-    pos: 15
+    pos: 16
   - name: Skype
     path: "/Applications/Skype.app"
-    pos: 16
+    pos: 17
