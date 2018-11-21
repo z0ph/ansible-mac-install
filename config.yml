@@ -1,4 +1,5 @@
 ---
+
 project_dir: ~/.script
 downloads_dir: ~/Downloads
 
@@ -100,11 +101,11 @@ homebrew_cask_apps:
   - slack
   - skype
   - teamviewer
-  - transmit # torrent client
+  - transmission # torrent client
+  - transmit # sftp client
   - tunnelblick # vpn client
   - visual-studio-code
   - vlc
-
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
