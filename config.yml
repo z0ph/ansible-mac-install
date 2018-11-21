@@ -94,6 +94,7 @@ homebrew_cask_apps:
   - istat-menus5 # force version 5
   - licecap # capture as a gif
   - mark-text # Markdown editor
+  - microsoft-teams
   - pycharm
   - sequel-pro # MySQL Client (GUI)
   - spotify
