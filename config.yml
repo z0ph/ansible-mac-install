@@ -27,18 +27,21 @@ homebrew_taps:
   - wallix/awless
   - caskroom/fonts
   - homebrew/cask-versions
+  - aws/tap
 
 homebrew_installed_packages:
   - autoconf
   - automake
-  - awless # brew tap wallix/awless; brew install awless
+  - awless
   - aws-shell
   - awscli
+  - aws-sam-cli
   - bash-completion
   - calc
   - coreutils
   - curl
   - direnv
+  - docker
   - dockutil
   - git
   - gnupg
