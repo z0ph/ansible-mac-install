@@ -79,6 +79,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
   - cleanmymac
+  - aws-vault
   - cyberduck # ftp client
   - docker
   - dropbox
