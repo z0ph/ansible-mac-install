@@ -28,6 +28,7 @@ homebrew_taps:
   - caskroom/fonts
   - homebrew/cask-versions
   - aws/tap
+  - lucagrulla/tap
 
 homebrew_installed_packages:
   - autoconf
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - awless
   - aws-shell
   - awscli
+  - cw
   - aws-sam-cli
   - bash-completion
   - calc
@@ -118,7 +120,7 @@ mas_installed_apps:
   - { id: 1176895641, name: "Spark" } # Email Client
   - { id: 1039633667, name: "Irvue" } # Awesome wallpapers
   - { id: 409183694, name: "Keynote" }
-  - { id: 557168941, name: "Tweetbot for Twitter" }
+  - { id: 1384080005, name: "Tweetbot" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" } # RDP Client
   - { id: 784801555, name: "Microsoft OneNote" }
 
