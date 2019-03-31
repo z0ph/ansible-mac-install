@@ -17,10 +17,10 @@ dotfiles_repo: https://github.com/z0ph/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
-  - .osx
-  - .zshrc
   - .alias.sh
   - .bashrc
+  - .osx
+  - .zshrc
 
 homebrew_taps:
   - homebrew/cask
@@ -34,14 +34,14 @@ homebrew_installed_packages:
   - autoconf
   - automake
   - awless
+  - aws-sam-cli
   - aws-shell
   - awscli
-  - cw
-  - aws-sam-cli
   - bash-completion
   - calc
   - coreutils
   - curl
+  - cw
   - direnv
   - docker
   - dockutil
@@ -67,9 +67,10 @@ homebrew_installed_packages:
   - ruby
   - sqlite
   - ssh-copy-id
-  - terraform
   - terminal-notifier
+  - terraform
   - tldr
+  - tmux
   - tree
   - unrar
   - vim
@@ -80,8 +81,8 @@ homebrew_installed_packages:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - alfred
-  - cleanmymac
   - aws-vault
+  - cleanmymac
   - cyberduck # ftp client
   - docker
   - dropbox
@@ -95,17 +96,17 @@ homebrew_cask_apps:
   - google-chrome
   - grammarly
   - handbrake
-  - iterm2 # terminal emulator
   - istat-menus5 # force version 5
+  - iterm2 # terminal emulator
   - licecap # capture as a gif
   - mark-text # Markdown editor
   - microsoft-teams
   - pycharm
   - sequel-pro # MySQL Client (GUI)
+  - skype
+  - slack
   - spotify
   - sublime-text
-  - slack
-  - skype
   - teamviewer
   - transmission # torrent client
   - transmit # sftp client
@@ -130,24 +131,24 @@ osx_script: "~/.osx --no-restart"
 
 # Dock
 dockitems_disabled:
-  - Launchpad
-  - Siri
-  - Mail
-  - Safari
-  - Contacts
-  - Notes
-  - Reminders
-  - Maps
-  - Photos
-  - Messages
-  - FaceTime
-  - iTunes
-  - iBooks
   - Calendar
-  - Terminal
-  - Pages
-  - Numbers
+  - Contacts
+  - FaceTime
+  - iBooks
+  - iTunes
   - Keynote
+  - Launchpad
+  - Mail
+  - Maps
+  - Messages
+  - Notes
+  - Numbers
+  - Pages
+  - Photos
+  - Reminders
+  - Safari
+  - Siri
+  - Terminal
 
 dockitems_enabled:
   - name: Google Chrome
