@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - gnupg
   - gnutls
   - go
+  - git-secrets
   - gpg
   - htop
   - kubernetes-cli
@@ -124,6 +125,7 @@ mas_installed_apps:
   - { id: 1384080005, name: "Tweetbot" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" } # RDP Client
   - { id: 784801555, name: "Microsoft OneNote" }
+  - { id: 918207447, name: "Annotate" } # Annotate Screenshots
 
 mas_upgrade_all_apps: yes
 
