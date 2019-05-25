@@ -42,6 +42,7 @@ homebrew_installed_packages:
   - calc
   - coreutils
   - curl
+  - cfn-lint
   - cw
   - direnv
   - docker
@@ -91,7 +92,7 @@ homebrew_cask_apps:
   - enpass # password manager
   - etcher # flash usb drives
   - firefox
-  - font-fira-mono-for-powerline 
+  - font-fira-mono-for-powerline
   - font-source-code-pro # font for zsh
   - franz # client whatsapp, telegram, slack, etc.
   - gitkraken # git with a gui
