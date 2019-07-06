@@ -40,20 +40,21 @@ homebrew_installed_packages:
   - awscli
   - bash-completion
   - calc
+  - cfn-lint
   - coreutils
   - curl
-  - cfn-lint
   - cw
   - direnv
   - docker
   - dockutil
   - git
+  - git-secrets
   - gnupg
   - gnutls
   - go
-  - git-secrets
   - gpg
   - htop
+  - hydra
   - kubernetes-cli
   - kubernetes-helm
   - lftp
@@ -79,6 +80,7 @@ homebrew_installed_packages:
   - vim
   - watch
   - wget
+  - wireshark
   - zsh
 
 homebrew_cask_appdir: /Applications
