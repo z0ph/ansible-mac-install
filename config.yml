@@ -55,6 +55,7 @@ homebrew_installed_packages:
   - gpg
   - htop
   - hydra
+  - jq
   - kubernetes-cli
   - kubernetes-helm
   - lftp
