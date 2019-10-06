@@ -31,6 +31,7 @@ homebrew_taps:
   - lucagrulla/tap
 
 homebrew_installed_packages:
+  - asciinema
   - autoconf
   - automake
   - awless
