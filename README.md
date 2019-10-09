@@ -65,7 +65,7 @@ Configure few personal stuffs:
 
 * Install zsh theme
 * Install zsh plugins
-* Set zsh as defaut shell
+* Set zsh as default shell
 * Install oh-my-zsh
 * Install pure-prompt
 * Set an `/etc/hosts` entry
