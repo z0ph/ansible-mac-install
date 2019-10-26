@@ -108,7 +108,7 @@ homebrew_cask_apps:
   - licecap # capture as a gif
   - mark-text # Markdown editor
   - microsoft-teams
-  - pycharm
+  - pycharm-ce
   - sequel-pro # MySQL Client (GUI)
   - skype
   - slack
