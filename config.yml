@@ -96,6 +96,7 @@ homebrew_cask_apps:
   - enpass # password manager
   - etcher # flash usb drives
   - firefox
+  - fliqlo # screensaver
   - font-fira-mono-for-powerline
   - font-source-code-pro # font for zsh
   - franz # client whatsapp, telegram, slack, etc.
