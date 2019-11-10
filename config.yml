@@ -91,6 +91,7 @@ homebrew_cask_apps:
   - aws-vault
   - cleanmymac
   - cyberduck # ftp client
+  - discord
   - docker
   - dropbox
   - enpass # password manager
