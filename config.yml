@@ -56,6 +56,7 @@ homebrew_installed_packages:
   - gpg
   - htop
   - hydra
+  - iperf3
   - jq
   - kubernetes-cli
   - kubernetes-helm
