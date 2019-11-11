@@ -72,6 +72,7 @@ homebrew_installed_packages:
   - python
   - python3
   - ruby
+  - speedtest-cli
   - sqlite
   - ssh-copy-id
   - terminal-notifier
