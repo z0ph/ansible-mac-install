@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - speedtest-cli
   - sqlite
   - ssh-copy-id
+  - telnet
   - terminal-notifier
   - terraform
   - tldr
