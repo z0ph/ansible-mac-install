@@ -55,6 +55,7 @@ homebrew_installed_packages:
   - go
   - gpg
   - htop
+  - httpie
   - hydra
   - iperf3
   - jq
