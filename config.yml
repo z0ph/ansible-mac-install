@@ -104,6 +104,7 @@ homebrew_cask_apps:
   - fliqlo # screensaver
   - font-fira-mono-for-powerline
   - font-source-code-pro # font for zsh
+  - font-jetbrains-mono # prefer font size 13
   - franz # client whatsapp, telegram, slack, etc.
   - gitkraken # git with a gui
   - google-chrome
