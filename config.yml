@@ -101,21 +101,18 @@ homebrew_cask_apps:
   - docker
   - dropbox
   - enpass # password manager
-  - etcher # flash usb drives
   - firefox
   - fliqlo # screensaver
   - font-fira-mono-for-powerline
   - font-source-code-pro # font for zsh
   - font-jetbrains-mono # prefer font size 13
   - franz # client whatsapp, telegram, slack, etc.
-  - gitkraken # git with a gui
-  - google-chrome
+  #- google-chrome
   - grammarly
   - handbrake
   - istat-menus5 # force version 5
   - iterm2 # terminal emulator
   - licecap # capture as a gif
-  - mark-text # Markdown editor
   - microsoft-teams
   - pycharm-ce
   - sequel-pro # MySQL Client (GUI)
@@ -123,7 +120,6 @@ homebrew_cask_apps:
   - slack
   - spotify
   - sublime-text
-  - teamviewer
   - transmission # torrent client
   - transmit # sftp client
   - tunnelblick # vpn client
@@ -138,6 +134,7 @@ mas_installed_apps:
   - { id: 1039633667, name: "Irvue" } # Awesome wallpapers
   - { id: 409183694, name: "Keynote" }
   - { id: 1384080005, name: "Tweetbot" }
+  - { id: 1289197285, name: "MindNode" } # Mind Mapping App
   - { id: 1295203466, name: "Microsoft Remote Desktop" } # RDP Client
   - { id: 784801555, name: "Microsoft OneNote" }
   - { id: 918207447, name: "Annotate" } # Annotate Screenshots
