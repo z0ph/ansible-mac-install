@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - libgcrypt
   - mas
   - ncdu
+  - neovim
   - nmap
   - node
   - nvm
