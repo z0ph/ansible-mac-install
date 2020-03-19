@@ -56,6 +56,7 @@ homebrew_installed_packages:
   - gpg
   - htop
   - httpie
+  - hugo
   - hydra
   - iperf3
   - jq
@@ -105,8 +106,8 @@ homebrew_cask_apps:
   - firefox
   - fliqlo # screensaver
   - font-fira-mono-for-powerline
-  - font-source-code-pro # font for zsh
   - font-jetbrains-mono # prefer font size 13
+  - font-source-code-pro # font for zsh
   - franz # client whatsapp, telegram, slack, etc.
   #- google-chrome
   - grammarly
