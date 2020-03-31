@@ -118,6 +118,7 @@ homebrew_cask_apps:
   - microsoft-teams
   - pycharm-ce
   - sequel-pro # MySQL Client (GUI)
+  - signal
   - skype
   - slack
   - spotify
