@@ -50,6 +50,7 @@ homebrew_installed_packages:
   - dockutil
   - git
   - git-secrets
+  - github/gh/gh
   - gnupg
   - gnutls
   - go
