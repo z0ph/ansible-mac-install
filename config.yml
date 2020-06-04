@@ -59,6 +59,7 @@ homebrew_installed_packages:
   - httpie
   - hugo
   - hydra
+  - ipcalc
   - iperf3
   - jq
   - kubernetes-cli
