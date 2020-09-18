@@ -119,6 +119,7 @@ homebrew_cask_apps:
   - licecap # capture as a gif
   - microsoft-teams
   - pycharm-ce
+  - postman
   - sequel-pro # MySQL Client (GUI)
   - signal
   - skype
