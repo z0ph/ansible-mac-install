@@ -74,6 +74,7 @@ homebrew_installed_packages:
   - nvm
   - openssl
   - packer
+  - pinentry-mac
   - python
   - python3
   - ruby
