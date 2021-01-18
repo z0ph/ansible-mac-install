@@ -112,26 +112,27 @@ homebrew_cask_apps:
   - font-jetbrains-mono # prefer font size 13
   - font-source-code-pro # font for zsh
   - franz # client whatsapp, telegram, slack, etc.
-  #- google-chrome
   - grammarly
   - handbrake
   - istat-menus5 # force version 5
   - iterm2 # terminal emulator
   - licecap # capture as a gif
   - microsoft-teams
-  - pycharm-ce
   - postman
+  - pycharm-ce
   - sequel-pro # MySQL Client (GUI)
   - signal
   - skype
   - slack
   - spotify
   - sublime-text
+  - telegram
   - transmission # torrent client
   - transmit # sftp client
   - tunnelblick # vpn client
   - visual-studio-code
   - vlc
+  #- google-chrome
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_signin_dialog: yes
